@@ -24,7 +24,8 @@
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
-section{
+
+section {
     margin-top: 130px;
 }
 
@@ -103,8 +104,8 @@ main {
 }
 
 .what-i-did {
-  margin: 30px 100px 50px 100px ;
-    
+    margin: 30px 100px 50px 100px;
+
     color: #757575;
 }
 
@@ -159,4 +160,55 @@ main {
     font-size: 16px;
 
 }
+
 /* resume styles */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume .title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume .sub {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+.resume-item{
+    margin: 30px 0px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/* Contact Section */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type='text'],input[type='email'],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+} 
+.contact a{
+    text-decoration: none;
+}
